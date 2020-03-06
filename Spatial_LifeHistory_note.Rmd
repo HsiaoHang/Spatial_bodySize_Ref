@@ -6,12 +6,20 @@ editor_options:
   chunk_output_type: inline
 ---
 
+# Note March 06
+1. To identify index for intra-population spatial overlap
+2. What is the hypothesis?
+3. Other factors that influence intra-population spatial overlap (i.e. habitat heterogeneity, availability)
+
+
+
 Procedure:
 1. To quantify the degree of ontogenetic niche shift
 2. To link it with life history traits
 3. To check if result 1 is in accordance with Jheng Ju's data
 
-Reference list
+Reference list (online)
+
 # Spatial distribution
 https://onlinelibrary.wiley.com/doi/full/10.1111/ele.13360
 https://www.nature.com/articles/s41598-019-53998-2
@@ -20,11 +28,11 @@ http://janohlberger.com/Homepage/download/cline-nature-ee-2019%20(1).pdf
 # Ontogenetic niche shift
 https://link.springer.com/article/10.1007/s10021-013-9645-4  
 
-# 
+# Age structure model in dispersive/residence contingent
 Kerr 2010 https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/08-1382.1
 
-# R package 
-"rfishbase” 
+# R package "rfishbase"
+
 ```{r}
 library("rfishbase")
 library("dplyr")
