@@ -22,6 +22,9 @@ T28   3        0.1
 
 The question becomes: how does fish preference on temperature depends on life history traits?
 
+Intra-population spatial overlap index~ life history traits+ temp+ O2.
+
+Life history traits such as mobility and changes in diet are traits which directly explain age-specific niche diffefentiation. And trait such as body size is likely associated with these above traits. 
 
 
 # Note March 06
