@@ -6,6 +6,24 @@ editor_options:
   chunk_output_type: inline
 ---
 
+# Arrizabalaga 2015 Global habitat preferences of commercially valuable tuna
+Used six tuna species in the Pacific, Atlantic and Indian Oceans.
+We may ask for the data.
+
+Both quotient analysis and Generalised Additive Models were used to determine habitat preference with respect to eight biotic and abiotic variables
+
+Quotient analysis embed environment quality into a new index Q. Abundance at a certain habitat can be transformed by embedding habitat quality. We can then use these Q to calculate index of overlapping 
+
+      SP1     SP2 
+T25   0.5      4
+T26   1        2
+T27   1.2      0.5
+T28   3        0.1
+
+The question becomes: how does fish preference on temperature depends on life history traits?
+
+
+
 # Note March 06
 1. To identify index for intra-population spatial overlap
 2. What is the hypothesis?
