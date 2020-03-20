@@ -7,6 +7,8 @@ editor_options:
 ---
 
 # Arrizabalaga 2015 Global habitat preferences of commercially valuable tuna
+Spatial overlap~ life history traits+ temp+O2
+
 Used six tuna species in the Pacific, Atlantic and Indian Oceans.
 We may ask for the data.
 
@@ -38,6 +40,9 @@ Life history traits such as mobility and changes in diet are traits which direct
 2. To link it with life history traits
 
 # Reference list (online)
+
+# Cotan's ecology paper
+https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/15-1270.1
 
 ## Spatial distribution
 https://onlinelibrary.wiley.com/doi/full/10.1111/ele.13360
