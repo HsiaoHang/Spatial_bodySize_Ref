@@ -132,6 +132,15 @@ dd[,LClass:=findInterval(LngtClass, class)]
 dd.list = split(dd, f=dd$LClass) 
 dd.list[[1]]
 
+install.packages("RCurl")
+install.packages("httr")
+install.packages("Rcpp")
+library(Rcpp)
+library(tidyverse)
+library(httr)
+library(RCurl)
+read.table(file = "https://raw.githubusercontent.com/HsiaoHang/Spatial_bodySize_Ref/master/data/RawData_length_raw_cod_19712019.csv", sep = ",", header = TRUE)
+
 ```
 
 
