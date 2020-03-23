@@ -98,5 +98,41 @@ library(ecospat)
 
 
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(data.table)
+library(mapplots)
+library(purrr)
+library(reshape2)
+``` 
+ 
+# Prepare North Sea data 
+```{r}
+getwd()
+dd<- fread("/Users/sha/Dropbox/Ecoinformatics/a0_Project_Spatial_Trait/Spatial_bodySize/data/RawData_length_raw_cod_19712019.csv")
+
+# keep variables we want
+dd <- subset(dd, select=c(Year, Quarter, SubArea, LngtClass, CPUE_number_per_hour))
+head(dd)
+
+# Add lon, lat
+dd[,lon:=ices.rect(SubArea)$lon][,lat:=ices.rect(SubArea)$lat]
+
+# Cut length into 20 classes
+class<-as.vector(NA)
+for (i in 1:20){class[i]<-70*i 
+return(class)}
+
+brks <- c(70,140,752,1533,2645,4143,6066,8449)  #from
+dd[,LClass:=findInterval(LngtClass, class)]
+
+# Split datatable into a list of 20 data.table according to LClass
+dd.list = split(dd, f=dd$LClass) 
+dd.list[[1]]
+
+```
+
+
 
 
