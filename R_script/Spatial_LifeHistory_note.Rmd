@@ -91,6 +91,7 @@ landscape structure
 install.packages("devtools")
 library(devtools)
 install_github(repo="ecospat/ecospat/ecospat")
+install.packages("ecospat")
 library(ecospat)
 
 
