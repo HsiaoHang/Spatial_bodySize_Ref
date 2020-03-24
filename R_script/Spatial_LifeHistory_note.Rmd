@@ -91,7 +91,13 @@ landscape structure
 install.packages("devtools")
 library(devtools)
 install_github(repo="ecospat/ecospat/ecospat")
+<<<<<<< HEAD
 library(ecospat) 
+=======
+install.packages("ecospat")
+library(ecospat)
+
+>>>>>>> 1229ed47741cb57f420b86b8b72c5de57d5a8a64
 
 ```
 
@@ -127,6 +133,15 @@ dd[,LClass:=findInterval(LngtClass, class)]
 # Split datatable into a list of 20 data.table according to LClass
 dd.list = split(dd, f=dd$LClass) 
 dd.list[[1]]
+
+install.packages("RCurl")
+install.packages("httr")
+install.packages("Rcpp")
+library(Rcpp)
+library(tidyverse)
+library(httr)
+library(RCurl)
+read.table(file = "https://raw.githubusercontent.com/HsiaoHang/Spatial_bodySize_Ref/master/data/RawData_length_raw_cod_19712019.csv", sep = ",", header = TRUE)
 
 ```
 
